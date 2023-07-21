@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image:url( https://cdn.greatpages.com.br/www.w2wclub.com.br-w2wday/1688425494/imagens/desktop/216040_1_168368028306269482.jpg);
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+   background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+}
+nav img{
+    width: 80vh;
+    
+}
+
+nav button{
+    width: 33vh;
+    height: 5vh;
+    margin: 80px;
+    font-weight: 500;
+    font-family: "Poppins",sans-serif;
+    background-color: rgb(162,15,105);
+    background-image: none;
+    color: rgb(255,255,255);
+    border: 0px;
+    font-size: 120%;
+    border-radius: 3px;
+}
+
+nav button:hover{
+    background-color: #000;
+    cursor: pointer;
+}
+section{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   margin-top: 100px;
+   margin-bottom: 150px;
+
+}
+section .text{
+    display: flex;
+    height: 220px;
+    width: 180px;
+    background-color: rgb(162,15,105);
+    margin: 20px;
+    flex-direction: column;
+    border-radius: 20%;
+    box-shadow: #201f1f 5px 4px 4px 2px;
+    
+}
+
+section .text:hover{
+   background-color: rgb(182, 29, 123);
+   transition: 0.3s;
+   cursor: pointer;
+}
+
+
+section .text p, h1{
+    text-align: center;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+section .text h1{
+    font-size: 37px;
+    font-family: inherit;
+    font-weight: 100;
+}
+
+section .text p{
+    font-size: 15px;
+}
+section  .text .image{
+    
+    background-image:url(https://cdn.greatpages.com.br/www.w2wclub.com.br-w2wday/1688425494/imagens/desktop/216040_1_28646.png) ;
+    background-position:  50%;
+    background-size: cover;
+    
+    height: 90px;
+}
+
+.divulgacao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.divulgacao p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 30px;
+    font-size: 30px;
+    
+}
+
+.divulgacao button{
+    width: 50vh;
+    height: 5vh;
+    font-size: 150%;
+    margin-bottom: 100px;
+    border: none;
+    border-radius: 80px;
+    background-color: #000;
+    color: #fff;
+    font-weight: 500;
+}
+
+.divulgacao button:hover{
+    background-color: rgb(182, 29, 123);
+    transition: 0.3s;
+    cursor: pointer;
+   
+}
+
+.divulgacao i{
+    font-size: 50px;
+    color: #222;
+}
+
+.divulgacao p span{
+    color: rgb(182, 29, 123);
+}
